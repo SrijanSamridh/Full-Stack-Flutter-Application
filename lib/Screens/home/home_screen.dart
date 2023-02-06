@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.all(25.0),
               child: TextField(
                 onChanged: (value) {
-                  url = 'http://127.0.0.1:5000/api?query=$value';
+                  url = 'https://ascii-value-api.onrender.com/api?query=$value';
                   ch = value;
                 },
                 decoration: const InputDecoration(
